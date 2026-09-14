@@ -12,7 +12,7 @@ body {
     color: #1d124d;
     line-height: 1.6;
 }
-header (
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -21,9 +21,11 @@ header (
 
     background: rgba(255, 255, 255, 0.95);
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
-)
 
->navbar {
+}
+    
+
+navbar {
     max-width: 1200px;
     height: 75px;
     margin:auto;
@@ -99,7 +101,7 @@ header (
 }
 
 .hero h1 {
-    font-size clamp(45px, 7vw,85px);
+    font-size :45px, 7vw,85px;
     line-height: 1;
     margin-bottom: 25px;
     color: #102a56;
@@ -163,7 +165,7 @@ header (
 .services {
     max-width: 1200px;
     margin:auto;
-    padding; 100px 25px;
+    padding: 100px 25px;
 }
 
 .service-grid {
@@ -188,9 +190,11 @@ header (
     box-sizing: border-box;
 
     width: 100%;
+
+    background: white;
 }
 .service-card:hover {
-    transfrom: translateY(-8px
+    transform: translateY-8px
 }
 .icon {
     font-size: 42px;
@@ -198,8 +202,8 @@ header (
 }
 
 .service-card h3 {
-    color: #102a56
-    font-size: 22px;
+    color: #102a56;
+    font-size: small;
     margin-bottom: 12px;
 }
 
@@ -210,14 +214,15 @@ header (
 .training {
     padding: 110px 8%;
 
-    background;
-    linear-gradient{
-        135deg,
+    background:
+    linear-gradient;
+        }
         #073b8c,
         #0b5ed7
-    };
-color: rgb(107, 21, 21);
-}
+        color: 107, 21, 21;
+    *
+
+
 
 .training-content {
     max-width: 750px;
@@ -316,7 +321,7 @@ footer .logo {
     .nav-links.active {
         display:flex;
     }
-}
+
 @media (max-width: 768px) {
     .nav-links {
         display: none;
